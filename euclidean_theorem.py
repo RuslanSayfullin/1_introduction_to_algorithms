@@ -36,8 +36,8 @@ def greatest_common_divisor():
     while remainder != 0:
         max = min
         min = remainder
-        remainder =max % min
-    gcd=min
+        remainder = max % min
+    gcd = min
     print(gcd)
 
 def GCD(a,b):

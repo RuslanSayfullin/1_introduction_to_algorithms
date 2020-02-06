@@ -2,7 +2,7 @@ def generate_numbers(N:int, M:int, prefix= None):
     """генерация всех перестановок
     N-основание счисления, M-кол-во чисел"""
     prefix = prefix or []
-    if M==0:
+    if M == 0:
         print(prefix)
         return
 
